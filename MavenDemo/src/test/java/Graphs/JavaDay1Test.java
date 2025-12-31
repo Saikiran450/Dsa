@@ -9,9 +9,10 @@ public class JavaDay1Test {
 		// TODO Auto-generated method stub
 		System.out.println("Day1");
 		
-		String a=System.getProperty("a");
-		String b=System.getProperty("b");
-		System.out.println(a+b);
+		int x = Integer.parseInt(System.getProperty("a"));
+		int y = Integer.parseInt(System.getProperty("b"));
+		System.out.println(x + y);
+
 
 	}
 
