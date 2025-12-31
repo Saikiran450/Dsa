@@ -1,8 +1,11 @@
 package Graphs;
 
+import org.testng.annotations.Test;
+
 public class JavaDay1Test {
 
-	public static void main(String[] args) {
+	 @Test
+	public void t1() {
 		// TODO Auto-generated method stub
 		System.out.println("Day1");
 		
